@@ -3,16 +3,18 @@ import pprint
 
 import pandas as pd
 
-# Requests sends and recieves HTTP requests.
-import requests
-
 # Beautiful Soup parses HTML documents in python.
 from bs4 import BeautifulSoup
 
-import json
-import time
 
+#Connect to MongoDB and pull data
+client = MongoClient('localhost', 27017)
+db = client.wbb
+rosters = db.rosters
 cursor = rosters.find({})
+
+#HTML from duke website & 2017-2020 have different class tags than 2009-12
+#Two conditionals to parse through code
 seasons_2 = ['2017-18', '2018-19', '2019-20']
 all_teams = []
 for item in cursor:
