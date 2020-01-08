@@ -1,15 +1,10 @@
 from pymongo import MongoClient
-import pprint
 
 import pandas as pd
 
 # Requests sends and recieves HTTP requests.
 import requests
 
-# Beautiful Soup parses HTML documents in python.
-from bs4 import BeautifulSoup
-
-import json
 import time
 
 #Create dictionary to store key/value pairs for teams & roster webpage
@@ -27,11 +22,11 @@ client = MongoClient('localhost', 27017)
 db = client.wbb
 rosters = db.rosters
 
-
-r = requests.get()
-rosters.insert_one({'team': team,
-                    'season': season,
-                    'html': r.content})
-
-#Pull data from MongoDB and parse with BeautifulSoup
+for season in seasons:
+    for team, url in roster_urls.items():
+        r = requests.get(url + season)
+        rosters.insert_one({'team': team,
+                            'season': season,
+                            'html': r.text})
+        time.sleep(2)
 
