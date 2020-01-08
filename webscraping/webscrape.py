@@ -2,7 +2,7 @@ from pymongo import MongoClient
 
 import pandas as pd
 
-# Requests sends and recieves HTTP requests.
+# Requests sends and receives HTTP requests.
 import requests
 
 import time
