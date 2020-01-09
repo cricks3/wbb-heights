@@ -7,11 +7,7 @@ Project Setup
 
 -I wanted to pick teams that tend to consistently select the same caliber prospects annually, so I went with a Power 5 conference in the ACC.  The thought is if I chose a conference that typically has lower tier recruits (which trends toward shorter players), then conference realignment could bring in teams that were dramatically better than the typical team and cause a size increase when it was just a result of an elite school like UConn joining the conference and increasing the height average.  
 
--My teams will be
-North Carolina
-Miami
-NC State
-Duke
+-My teams will be North Carolina, Miami, NC State, & Duke
 
 -I settled onto these teams because their team websites have rosters for the desired time frames.  Some teams did not have data available for certain years (Florida State, Virginia).
 
