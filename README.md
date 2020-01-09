@@ -8,18 +8,21 @@ Project Setup:
 -I wanted to pick teams that tend to consistently select the same caliber prospects annually, so I went with a Power 5 conference in the ACC.  The thought is if I chose a conference that typically has lower tier recruits (which trends toward shorter players), then conference realignment could bring in teams that were dramatically better than the typical team and cause a size increase when it was just a result of an elite school like UConn joining the conference and increasing the height average.  
 
 -My teams will be:
-	—North Carolina
-	—Miami
-	—NC State
-	—Duke
+North Carolina
+Miami
+NC State
+Duke
 
 -I settled onto these teams because their team websites have rosters for the desired time frames.  Some teams did not have data available for certain years (Florida State, Virginia).
 
 Post Project Questions:
--Have other measurables (wingspan, vertical jump, etc.) changed?
--What about comparing actual game statistics?
-	—Have 3pt attempts increased?  Foul rate?  Post touches?  FT rate? Etc.
--Is there a difference in height for individual position groups (PG, Wing, Bigs)?
+Have other measurables (wingspan, vertical jump, etc.) changed?
+
+What about comparing actual game statistics?
+
+-Have 3pt attempts increased?  Foul rate?  Post touches?  FT rate? Etc.
+
+Is there a difference in height for individual position groups (PG, Wing, Bigs)?
 
 
 
