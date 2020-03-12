@@ -1,7 +1,5 @@
 # ACC Women's Basketball Player Heights
 
-[__December 2019 Galvanize Data Science Immersive__](https://www.galvanize.com/austin)
-
 __Question__ - Has average player height changed from the sample years of 2009-2010/2010-2011/2011-2012 to 2017-2018/2018-2019/2019-2020 among women’s basketball teams in the Atlantic Coastal Conference (ACC)?
 
 __Project Setup:__
