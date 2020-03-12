@@ -1,7 +1,5 @@
 # ACC Women's Basketball Player Heights
 
-[__December 2019 Galvanize Data Science Immersive__](https://www.galvanize.com/austin)
-
 __Question__ - Has average player height changed from the sample years of 2009-2010/2010-2011/2011-2012 to 2017-2018/2018-2019/2019-2020 among women’s basketball teams in the Atlantic Coastal Conference (ACC)?
 
 __Project Setup:__
@@ -14,11 +12,11 @@ __Project Setup:__
 -I settled onto these teams because their team websites have rosters for the desired time frames.  Some teams did not have data available for certain years (Florida State, Virginia).
 
 __Hypothesis:__
--Null - The average height of players from 2017-2020 is equal to the average height of players from 2009-2012.
+Null - The average height of players from 2017-2020 is equal to the average height of players from 2009-2012.
 
 Alternate - The average height of players from 2017-2020 is not equal to the average height of players from 2009-2012.
 
-__Analysis methods:__
+__Analysis Methods:__
 The tech stack consists of Python 3, Numpy, Pandas, Beautiful Soup, Scikit-Learn, Matplotlib, HTML, and CSS.
 
 One JSON file, the results of the webscraping, are stored in the data directory.
@@ -30,6 +28,9 @@ From the src directory of the repo, run the following code:
 webscrape.py
 
 parsing.py
+
+__Results:__
+There was not enough evidence to reject the null hypothesis that the average height of players from 2017-2020 is equal to the average height of players from 2009-2012.
 
 __Future questions:__
 Have other measurables (wingspan, vertical jump, etc.) changed?
