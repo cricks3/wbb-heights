@@ -11,10 +11,11 @@ __Project Setup:__
 
 -I settled onto these teams because their team websites have rosters for the desired time frames.  Some teams did not have data available for certain years (Florida State, Virginia).
 
-__Hypothesis:__
-Null - The average height of players from 2017-2020 is equal to the average height of players from 2009-2012.
+__Null Hypothesis:__
+-The average height of players from 2017-2020 is equal to the average height of players from 2009-2012.
 
-Alternate - The average height of players from 2017-2020 is not equal to the average height of players from 2009-2012.
+__Alternate Hypothesis:__ 
+-The average height of players from 2017-2020 is not equal to the average height of players from 2009-2012.
 
 __Analysis Methods:__
 The tech stack consists of Python 3, Numpy, Pandas, Beautiful Soup, Scikit-Learn, Matplotlib, HTML, and CSS.
